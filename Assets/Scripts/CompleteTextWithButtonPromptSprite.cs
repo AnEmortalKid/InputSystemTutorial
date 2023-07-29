@@ -7,7 +7,7 @@ namespace Christina.Typography
 {
     public static class CompleteTextWithButtonPromptSprite
     {
-        public static string ReadAndReplaceBnding(string textToDisplay, InputBinding actionNeeded,
+        public static string ReadAndReplaceBinding(string textToDisplay, InputBinding actionNeeded,
             TMP_SpriteAsset spriteAsset)
         {
             //Different from christina's in that we are going to use the effective path

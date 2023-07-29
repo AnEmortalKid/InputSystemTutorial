@@ -43,7 +43,7 @@ namespace Christina.Typography
                 return;
             }
 
-            _textBox.text = CompleteTextWithButtonPromptSprite.ReadAndReplaceBnding(
+            _textBox.text = CompleteTextWithButtonPromptSprite.ReadAndReplaceBinding(
                 message,
                 _playerInput.Player.Interact.bindings[(int)deviceType],
                 listOfTmpSpriteAssets.SpriteAssets[(int)deviceType]);
