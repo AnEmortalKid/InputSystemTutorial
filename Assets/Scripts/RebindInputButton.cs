@@ -63,6 +63,7 @@ namespace Christina.Typography
             inputManager.EnablePlayer();
             rebindInProgressPanel.SetActive(false);
             // ReloadText
+            // TODO this is where you would want to Save your bindings
         }
     }
 }
